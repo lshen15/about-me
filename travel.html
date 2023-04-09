@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="icon" href="images/personal logo.png">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Travel</title>
+
+</head>
+
+<body>
+<header>
+    <div style="text-align:center;">
+    <a class="logo" href="index.html">
+        <img src="images/personal logo.png" style='width:24px;' 
+        alt="The personal logo of Lin Shen, the author of this site">
+      </a>
+    </div>
+    <nav class="navbar">
+        <ul>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="movie.html">Movie</a></li>
+          <li><a class="current" href="travel.html">Travel</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<div class="button">
+  <!-- <button id="play-pause-btn" class="play-btn">&#9654;</button> -->
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <button id="play-pause-btn" class="play-btn" aria-label="Play">
+      <img src="images/play-solid.svg" alt="play butotn icon" style="width: 28px; height: 28px; margin-left: 3px;">
+    </button>
+  </div>
+  <audio id="audio-player" src="mp3/Dirty paws.mp3"></audio>
+</div>
+
+  <h1>Places I want to go</h1>
+
+  <div class="travel">
+
+<div>
+  <img src="images/travel/Budapest.jpg"  
+  onclick="showPopup('images/travel/Budapest.jpg')"
+  alt="Budapest landmark">
+  <h3>Budapest</h3>
+  <p>Hungary</p>
+
+  <div id="popup" style="display:none">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="Budapest landmark">
+      <div class="popup-text">
+        <!-- <p>Budapest, Hungary</p> -->
+      </div>
+      <button id="close-btn" onclick="hidePopup()">Close</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <img src="images/travel/Egypt.jpg"  
+  onclick="showPopup('images/travel/Egypt.jpg')"
+  alt="Egyptian Pyramid">
+  <h3>Cairo</h3>
+  <p>Egypt</p>
+
+  <div id="popup" style="display:none">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="Egyptian Pyramid">
+      <div class="popup-text-2">
+        <!-- <p>Cairo, Egypt</p> -->
+      </div>
+      <button id="close-btn" onclick="hidePopup()">Close</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <img src="images/travel/iceland.jpg"  
+  onclick="showPopup('images/travel/iceland.jpg')"
+  alt="Iceland Aurora">
+  <h3>Reykjavík</h3>
+  <p>Iceland</p>
+
+  <div id="popup" style="display:none">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="Iceland Aurora">
+      <div class="popup-text-3">
+        <!-- <p>Reykjavík, Iceland</p> -->
+      </div>
+      <button id="close-btn" onclick="hidePopup()">Close</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <img src="images/travel/Istanbul.jpg"  
+  onclick="showPopup('images/travel/Istanbul.jpg')"
+  alt="Air Balloons in Istanbul, Turkey">
+  <h3>Istanbul</h3>
+  <p>Turkey</p>
+
+  <div id="popup" style="display:none">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="Air Balloons in Istanbul, Turkey">
+      <div class="popup-text-3">
+        <!-- <p>Reykjavík, Iceland</p> -->
+      </div>
+      <button id="close-btn" onclick="hidePopup()">Close</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <img src="images/travel/Santorini.jpg"  
+  onclick="showPopup('images/travel/Santorini.jpg')"
+  alt="Santorini View, the blue domes and white architecture">
+  <h3>Santorini</h3>
+  <p>Greek</p>
+
+  <div id="popup" style="display:none">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="Santorini View, the blue domes and white architecture">
+      <div class="popup-text-3">
+        <!-- <p>Reykjavík, Iceland</p> -->
+      </div>
+      <button id="close-btn" onclick="hidePopup()">Close</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<h1>Places I have been to...</h1>
+<div class="travel-been">
+
+<div>
+  <img src="images/travel/White Sand.jpg" alt="The girl with red outfit walking in White Sand National Park">
+  <h3>White Sand National Park</h3>
+</div>
+
+<div>
+  <img src="images/travel/Antelope canyon.jpg" alt="Antelope Canyon with blue sky">
+  <h3>Antelope Canyon, Arizona</h3>
+</div>
+
+<div>
+  <img src="images/travel/Vizcaya.jpg" alt="The girl standing in front of the sea, with the hat covering half of her face">
+  <h3>Vizcaya Museum, Miami</h3>
+</div>
+
+<div>
+  <img src="images/travel/Boston.jpg" alt="The clock in Revere Beach, Boston, with blue sky">
+  <h3>Revere Beach, Boston</h3>
+</div>
+
+<div>
+  <img src="images/travel/Death Valley.jpg" alt="The girl standing in front of the zabriskie Point.">
+  <h3>Death Valley, California</h3>
+</div>
+
+<div>
+  <img src="images/travel/California.jpg" alt="The sunset in California">
+  <h3>Rocky Creek Bridge, California</h3>
+</div>
+
+<div>
+  <img src="images/travel/Denmark.jpg" alt="The grand church in Denmark, Copenhagen.">
+  <h3>Denmark, Copenhagen</h3>
+</div>
+
+<div>
+  <img src="images/travel/horseshoe bay.jpg" alt="The gird sitting in front of the horseshoe bay">
+  <h3>Horseshoe bay, Arizona</h3>
+</div>
+
+<div>
+  <img src="images/travel/New York City.jpg" alt="The incredible sunset in New York City">
+  <h3>Chelsea Market, New York City</h3>
+</div>
+
+<div>
+  <img src="images/travel/Niagara Fall.jpg" alt="The incredible sunset in Niagara Fall">
+  <h3>Niagara Fall, New York</h3>
+</div>
+
+<div>
+  <img src="images/travel/Washington DC.jpg" alt="The sakura in Washington DC">
+  <h3>Washington DC</h3>
+</div>
+
+<div>
+  <img src="images/travel/Santa Fe.jpg" alt="Adobe style architecture in Santa Fe">
+  <h3>Santa Fe, New Mexico City</h3>
+</div>
+
+</div>
+
+</div>
+
+
+</main>
+
+<footer>
+  <p>Orginal content created by Lin Shen© 2023</p>
+</footer>
+
+</body>
+<script src="aboutme.js"></script>
+</html>

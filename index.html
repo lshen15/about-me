@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="icon" href="images/personal logo.png">
+
+  <title>About Me</title>
+
+</head>
+
+<body>
+<header>
+    <div style="text-align:center;">
+    <a class="logo" href="index.html">
+        <img src="images/personal logo.png" style='width:24px;' alt="The personal logo of Lin Shen, the author of this site">
+    </a>
+    </div>
+    <!-- <nav class="navbar">
+        <ul>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="movie.html">Movie</a></li>
+          <li><a href="travel.html">Travel</a></li>
+        </ul>
+    </nav> -->
+</header>
+
+<main>
+    <div>
+        <div class="bigtitle">
+            
+        <img class="profile-photo" src="images/My Photo.jpg" 
+        style="border-radius: 50%; width: 160px; height: 160px;"
+        onclick="showPopup('images/My Photo.jpg')" 
+        alt="A girl with long hair in front of a red background">
+        <div id="popup" style="display:none">
+            <div class="popup-content">
+              <img id="popup-image" src="" alt="A girl with long hair in front of a red background">
+              <div class="popup-text">
+                <p>Photo of me, taken in Chicago</p>
+              </div>
+              <button id="close-btn" onclick="hidePopup()">Close</button>
+            </div>
+          </div>
+
+        <h2>LIN SHEN</h2>
+        <ul class="bio">
+            <li>Beijing, China</li>
+            <li>Female</li>
+            <li>&#9802; June 11, 1999</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="three-column-grid">
+        <div class="module">
+            <span style='font-size:40px;'>&#127925;</span>
+            <p class="module-p">I have a great passion for music, especially pop music. It has a unique ability to transport me to a particular time and place, making it a memorable experience.</p>
+            <a class="know-more" href="music.html">Know More</a>
+        </div>
+
+        <div class="module">
+            <span style='font-size:40px;'>&#127916;</span>
+            <p class="module-p">I love to indulge in classic movies. Not only do they offer aesthetic appeal, but they also possess profound philosophical depth that leaves a lasting impression.</p>
+            <a class="know-more" href="movie.html">Know More</a>
+        </div>
+
+        <div class="module">
+            <span style='font-size:40px;'>&#127757;</span>
+            <p class="module-p">For me, traveling is the ultimate way to recharge. It is my dream to explore the world and experience the awe-inspiring beauty that every corner of the earth has to offer.</p>
+            <a class="know-more" href="travel.html">Know More</a>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <p>Orginal content created by Lin Shen© 2023</p>
+</footer>
+
+</body>
+<script src="aboutme.js"></script>
+</html>

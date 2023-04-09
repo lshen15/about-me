@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="icon" href="images/personal logo.png">
+
+  <title>Movie</title>
+
+</head>
+
+<body>
+<header>
+    <div style="text-align:center;">
+    <a class="logo" href="index.html">
+        <img src="images/personal logo.png" style='width:24px;' alt="The personal logo of Lin Shen, the author of this site">
+      </a>
+    </div>
+    <nav class="navbar">
+        <ul>
+          <li><a href="music.html">Music</a></li>
+          <li><a class="current" href="movie.html">Movie</a></li>
+          <li><a href="travel.html">Travel</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+  <div class="button">
+    <!-- <button id="play-pause-btn" class="play-btn">&#9654;</button> -->
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <button id="play-pause-btn" class="play-btn" aria-label="Play">
+        <img src="images/play-solid.svg" alt="the play icon" style="width: 28px; height: 28px; margin-left: 3px;">
+      </button>
+    </div>
+    <audio id="audio-player" src="mp3/Mystery of love.mp3"></audio>
+  </div>
+
+  <div class="heading">
+    <h1>My Selected Movies</h1>
+    <p>Flip each card to see the quotes.</p>
+  </div>
+
+  <div class="three-column-grid">
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/call me by your name.jpg" alt="A teenage boy leaning over a pile of books, watching outside">
+            <h3>Call Me by Your Name</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“Call me by your name and I'll call you by mine.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/Flipped.jpg" alt="A couple of young boy and girl staring at each other">
+            <h3>Flipped</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“Some of us get dipped in flat, some in satin, some in gloss, but every once in a while you find someone who's iridescent, and once you do, nothing will ever compare.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/before sunrise.jpg" alt="A couple of adult woman and man staring at each other lovingly">
+            <h3>Before Sunrise</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“If there is any kind of magic in this world, it must be in the attempt of understanding someone.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/green book.jpg" alt="A white man and a black man sitting in the green car, and the window rolls down.">
+            <h3>Green Book</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“The world is full of lonely people afraid to make the first move.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/Love actually.jpeg" alt="A couple is waving towards the audience in Christmas">
+            <h3>Love Actually</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“Christmas is the time to be with people you love.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/Scent of a woman.jpg" alt="A blind man and a beautiful lady dancing in the room">
+            <h3>Scent of a Woman</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“I'm not a judge or jury, but I can tell you this: He won't sell anybody out to buy his future! And that, my friends, is called integrity. That's called courage.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/Soul.jpg" alt="The poster of the cartoonish movie soul">
+            <h3>Soul</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“Your spark isn't your purpose. That last box fills in when you're ready to come live.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/Truman Show.jpg" alt="The man is climbing up towards the stairs">
+            <h3>Truman Show</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“In case I don't see ya, good afternoon, good evening and good night.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/movie/The Shawshank Redemption.jpg" alt="The man gets wet in the rain, but he embraces his arms and feels the rain.">
+            <h3>The Shawshank Redemption</h3>
+          </div>
+          <div class="flip-card-back">
+            <div class="text-container">
+            <p>“Hope is a good thing, maybe the best of things, and no good thing ever dies.”</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+
+  </div>
+
+
+</main>
+
+<footer>
+  <p>Orginal content created by Lin Shen© 2023</p>
+</footer>
+
+</body>
+<script src="aboutme.js"></script>
+</html>
